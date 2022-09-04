@@ -5,7 +5,7 @@ local Mouse = game:GetService('Players').LocalPlayer:GetMouse()
 local Minimize = Enum.KeyCode.RightControl
 local Library = Instance.new('ScreenGui')
 Library.Name = 'Library'
-Library.Parent = game:GetService('GoreGui')
+Library.Parent = game:GetService('CoreGui')
 Library.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 function MakeDraggable(Topbar, Object)
 	-- Functions
