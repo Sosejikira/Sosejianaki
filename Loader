@@ -14,7 +14,7 @@ game:GetService('Players')['LocalPlayer'].Idled:Connect(function()
 end)
 --------------------------------------------------------------------------------------------------------------------------------
 local Games = {
-    [6846458508] = "https://raw.githubusercontent.com/Sosejikira/Sosejianaki/Home/Universal"
+    [6846458508] = "https://raw.githubusercontent.com/Sosejikira/Sosejianaki/Home/A-Universal-Time"
 }
 if Games[game.PlaceId] then
     game:GetService('StarterGui'):SetCore("SendNotification", {
